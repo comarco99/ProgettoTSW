@@ -1,0 +1,1949 @@
+@charset "ISO-8859-1";
+
+@font-face {
+  font-family: HarryPfont;
+  src: url(./font/HARRYP__.TTF);
+} 
+
+*{
+	font-family: verdana, sans-serif;
+	margin:0;
+	padding:0;
+	
+}
+
+
+/*+++++++++++++++++++++++ MI SENTO FORTUNATO ++++++++++++++++++++++++++*/
+
+
+#fortunato{
+	width: 25%;
+	margin: 0 auto;
+	padding: 1%;
+	text-align: center;
+}
+
+#fortunatoDescrzione{}
+
+.bottoneFortuna{
+	  border: none;
+	  color: black;
+	  padding: 15px 32px;
+	  text-align: center;
+	  text-decoration: none;
+	  font-size: 20px;
+	  margin: 4px 2px;
+	  margin-bottom: 12px;
+	  border-radius: 10px;
+	  cursor:pointer;
+	  font-family: HarryPfont;
+      src: url(./font/HARRYP__.TTF);
+}
+
+.bottoneFortuna:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+
+
+
+/*---- hidden nav ------- */
+ nav #hiddenMenu, #spanToggle{
+	display:none;
+}
+/*----- login page ------*/
+#divLogin{
+	margin-top:10%;
+	width:100%;
+}
+#divLogin #hLogin{
+	margin-left:42%;
+	font-size:500%;
+	font-family: HarryPfont;
+	margin-bottom:2%;
+}
+#divLogin input[type="text"],#divLogin input[type="password"]{
+	margin-top:2%;
+	margin-left:25%;
+	width:50%;
+	
+}
+
+#divLogin input[type="submit"]{
+	margin-top:2%;
+	margin-left:42.5%;
+	width:200px;
+}
+
+#divLogin  #nCliente{
+	font-size:200%;
+	margin-top:4%;
+	margin-left:38%;
+}
+
+#divLogin  a,#divLogin  a:visited,#divLogin a:hover{
+	color:black;
+	font-size:200%;
+	margin-top:4%;
+	margin-left:43%;
+	
+}
+
+#divLogin a:hover{
+	color:gray;
+}
+/*-------PROCEDI ORDINE ------------*/
+#formOrdine  h3 {
+	margin-top:2%;
+	margin-bottom:2%;
+	margin-left:5%;
+	font-size:200%;
+	
+}
+
+
+#formOrdine #nome,#formOrdine #indirizzo,#formOrdine #intestatario,
+#formOrdine #numeroCarta, #formOrdine #cvvCarta,#formOrdine #scadenzaCarta{
+	margin-left:5%;
+	width:80%;
+	
+}
+
+#formOrdine #submit{
+	margin-left:5%;
+	margin-top:2%;
+}
+
+#formOrdine label{
+	margin-top:5%;
+	margin-left:5%;
+	font-size:100%;
+	
+}
+#riepilogoOrdine #totale{
+	margin-top:3%;
+	margin-left:70%;
+	font-size:150%;
+	margin-bottom:5%;
+}
+#riepilogoOrdine h3{
+	margin-left:37%;
+	margin-bottom:5%;
+	font-size:500%;
+	font-family: HarryPfont;
+}
+
+#riepilogoOrdine #RiepilogoTable {
+	text-align: center;
+	margin-left:10%;
+	width:80%;
+}
+
+#formOrdine #nuovoIndirizzo{
+	display:none;
+}
+
+#formOrdine .pOrdine{
+	font-size:150%;
+	margin-left:5%;
+	margin-bottom:3%;
+}
+
+/*------ Odrine Effettuato------*/
+#ordinato{
+	width:100%;
+}
+
+#ordinato #hOdinato{
+	msrgin-top:4%;
+	margin-left:25%;
+	font-size:200%;
+	
+}
+
+#ordinato #pOrdinato{
+	margin-top:1%;
+	margin-left:33%;
+	font-size:150%;
+	
+}
+
+#ordinato #aOrdinato{
+	margin-top:4%;
+	margin-left:43%;
+	font-size:500%;
+	
+}
+
+#ordinato #aOrdinato a, #ordinato #aOrdinato a:visited{
+	text-decoration:no;
+	
+}
+
+#ordinato #aOrdinato a:hover{
+	color:gray;
+	
+}
+
+
+/*--------------CARRELLO VIEW--------*/
+#cartTable #quantitaP #spanM:hover,#cartTable #quantitaP #spanP:hover{
+	color:gray;
+	cursor: pointer;
+	
+} 
+#cartTable #quantitaP {
+	font-size:120%;
+} 
+#totalePrezzo p{
+	margin-left:70%;
+}
+#cartButtons #svuota,#cartButtons #shopping,#cartButtons #checkout {
+	
+	bargin-style:solid;
+	text-align:center;
+	width:20%;
+	height:50px;
+	margin-right:20%;
+	border-radius:5%;
+	font-size:20px;
+	
+}
+
+#cartButtons #svuota a,#cartButtons #shopping a,#cartButtons #checkout a {
+	margin-top:10px;
+	text-decoration:none;
+	color:black;
+
+	}
+	
+	#cartButtons #svuota a:hover,#cartButtons #shopping  a:hover,#cartButtons #checkout a:hover {
+	
+	color:gray;
+
+	}
+
+#cartButtons{
+	margin-left:10%;
+	margin-top:5%;
+	display: inline-flex;
+	width:100%;
+	height:100%;
+}
+#cartHeader  h3{
+	margin-top:10%;
+	text-align:center;
+	color:gray;
+	font-size:200%;
+	
+}
+#cartHeader  p{
+	margin-top:2%;
+	text-align:center;
+	font-size:200%;
+}
+#cartHeader  a{
+	text-decoration:none;
+	color:black;
+	
+}
+#cartHeader  a:hover{
+	text-decoratio:none;
+	color:gray;
+	
+}
+#cartHeader h1{
+	margin-bottom:5%;
+	margin-top:5%;
+	text-align:center;
+	font-size:400%;
+	font-family: HarryPfont;
+
+}
+#cartTable table {
+	margin-left:-1%;
+
+}
+#cartTable table {
+	width: 100%;
+
+}
+
+#cartTable table ,#cartTable table  th, #cartTable table td {
+	text-align: center;
+	border-collapse: collapse;
+}
+
+#cartTable table  th, #cartTable table  td {
+	padding: 10px;
+	margin-right:10px;
+}
+#cartTable table  td a {
+	text-decoration: none;
+	color:black;
+}
+#cartTable table  td a:hover {
+	text-decoration: none;
+	color:red;
+}
+/*++++++++++++++++++++++++ ADMIN HOME +++++++++++++++++++++++++++++++++++++*/
+
+#update  #formUpdate .aggiornah4 {
+	margin-top:2%;
+	margin-bottom:2%;
+	font-size:150%;
+}
+
+
+
+#insert h3,#update h3, #remove h3 , #cercaOrdini h3{
+	font-size:180%;
+}
+
+#insert,#update, #remove, #cercaOrdini{
+	margin-left:10%;
+}
+
+	#fraseAdmin{
+	text-align:center;
+	font-family:HarryPfont;
+	font-size:500%;
+	}
+	
+	#contFrase{
+	width:80%;
+	
+	margin-left:-0%;}
+
+
+
+#insert h3:hover, #update h3:hover, #remove h3:hover, #cercaOrdini h3:hover{
+	color:gray;
+}
+
+ #formInsert, #formUpdate, #formRemove, #formCercaOrdini{
+ 	margin-left:5%;
+	display:none;
+	
+	
+}
+
+#fraseAdmin{
+	margin-left:30%;
+	margin-bottom:10%;
+}
+
+
+#formInsert #nome,#formInsert #descrizione,#formInsert #prezzo,#formInsert #quantita,
+#formInsert #categoria,#formUpdate #nome,#formUpdate #descrizione,#formUpdate #prezzo,#formUpdate #quantita,
+#formUpdate #categoria,#formUpdate #id, #formRemove #id{
+	width:80%;
+	
+}
+/*--------------FINESTRA DI LOGIN----------------------*/
+
+.miniLog {
+    background: gray;
+    width: 230px;
+    position: absolute;/*The element is positioned relative to its first positioned (not static) ancestor element*/
+    padding-top: 100px;
+    right: 20px;/*La proprietà right influisce sulla posizione orizzontale di un elemento posizionato*/
+    float: right;
+    padding: 0px 10px;
+    padding-left:10px; 
+    color: white;
+    overflow: hidden;/*La proprietà overflow specifica cosa dovrebbe accadere se il contenuto trabocca nella casella di un elemento.*/
+    text-align: center;
+    border-radius: 5px;
+    z-index: 100;
+}
+
+
+#notLogged {
+    display: none; /* viene utilizzato con JavaScript per nascondere e mostrare elementi senza eliminarli e ricrearli.*/
+    
+}
+
+#notLogged form {
+    display: block;
+    margin-top: 0em;
+}
+
+
+input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 20px;
+  height:auto;
+  font-size:100%;
+}
+
+input[type=password]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 20px;
+  height:auto;
+  font-size:100%;
+}
+
+input[type=submit]{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 20px;
+  height:auto;
+  font-size:100%;
+}
+
+#notLogged a{
+    color:white;
+}
+
+#logged {
+    display: none;
+    padding-bottom: 5px;
+}
+
+.miniLog::after {
+    clear: both;/*significa che gli elementi mobili non possono fluttuare su entrambi i lati.*/
+    display: table;
+    content: ""; /*is used with the ::before and ::after pseudo-elements, to insert generated content*/
+}
+
+#logged a {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700; 
+}
+
+#logged a:hover{ color: black;}
+
+/*+++++++++++++++++++++++++FINESTRA LOGIN RIDOTTA++++++++++++++++++++++++++++++++++*/
+.miniLog2 {
+    background: gray;
+    width: 230px;
+    position: absolute;/*The element is positioned relative to its first positioned (not static) ancestor element*/
+    top:180px;
+    padding-top: 100px;
+    right: 0px;/*La proprietà right influisce sulla posizione orizzontale di un elemento posizionato*/
+    float: right;
+    padding: 0px 10px;
+    padding-left:10px; 
+    color: white;
+    overflow: hidden;/*La proprietà overflow specifica cosa dovrebbe accadere se il contenuto trabocca nella casella di un elemento.*/
+    text-align: center;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+
+#notLogged2 {
+    display: none; /* viene utilizzato con JavaScript per nascondere e mostrare elementi senza eliminarli e ricrearli.*/
+}
+
+#notLogged2 form {
+    display: block;
+    margin-top: 0em;
+}
+
+#notLogged2 a{
+    color:white;
+}
+
+#logged2 {
+    display: none;
+    padding-bottom: 5px;
+}
+
+.miniLog2::after {
+    clear: both;/*significa che gli elementi mobili non possono fluttuare su entrambi i lati.*/
+    display: table;
+    content: ""; /*is used with the ::before and ::after pseudo-elements, to insert generated content*/
+}
+
+#logged2 a {
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700; 
+}
+
+#logged2 a:hover{ color: gold;}
+
+
+/*--------------------------------------AREA PERSONALE---------------------------------------------*/
+#AreaPersonaleContenitore #benvenuto{
+	font-family: HarryPfont;
+	font-size:500%;
+	
+}
+
+
+
+
+#AreaPersonaleContenitore{
+	width:80%;
+	margin: 0 auto;
+	text-align: center;
+	
+}
+
+#DatiUtente{
+	width: 70%;
+	border-radius: 8px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 25px;
+	
+
+}
+
+#VisualizzatoreOrdine{
+	width:90%;
+	border-radius: 8px;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 25px;
+	padding-top: 25px;
+}
+
+
+#AreaPersonaleContenitore a:hover{ text-decoration: none; }
+#AreaPersonaleContenitore a:link{ text-decoration: none; color: black;}
+#AreaPersonaleContenitore a:visited{ text-decoration: none;}
+
+#VisualizzatoreOrdine a:hover{ text-decoration: none; color: gold;}
+#VisualizzatoreOrdine a:link{ text-decoration: none; color: blue;}
+#VisualizzatoreOrdine a:visited{ text-decoration: none; color: red;}
+
+
+#tabellaOrdini table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+#tabellaOrdini th, td {
+  padding: 8px;
+  text-align: center;
+  width: 25%;
+  border-bottom: 1px solid #ddd;
+}
+
+#tabellaOrdini tr:nth-child(even) {background-color: #f2f2f2;}
+
+
+.tabellaUtente table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.tabellaUtente th, td {
+  padding: 8px;
+  text-align: center;
+  width: 25%;
+  border-bottom: 1px solid #ddd;
+}
+
+.tabellaUtente tr:nth-child(even) {background-color: #f2f2f2;}
+
+
+/*++++++++++++++++++++++++++++++++ CHI SIAMO+++++++++++++++++++++++++++++++++++++++++++*/
+#contenitoreChiSiamo{
+	margin-left: 150px;  
+ 	margin-right: 150px;
+	width: 80%;
+	padding-top: 100px;
+}
+#contenitoreChiSiamo #biografia h2{ 
+	 font-family: HarryPfont;
+	 font-size:500%;
+}
+
+#contenitoreChiSiamo #idee h2, #contenitoreChiSiamo #supporto h2,#contenitoreChiSiamo #sicurezza h2{ 
+	 font-family: HarryPfont;
+	 font-size:300%;
+} 
+
+
+#biografia{
+	width: 95%;
+	margin-left: 50px;
+ 	padding-right: 150px;
+	text-align: center;
+}
+
+#idee{
+	float: left;
+	width: 33.3%;
+	height: 4em;
+	text-align: center;
+	padding-top: 25px;
+}
+
+#supporto{	
+	float: left;
+	width: 33.3%;
+	height: 4em;
+	text-align: center;
+	padding-top: 25px;
+}
+
+
+#sicurezza{
+	float: left;
+	width: 33.3%;
+	height: 4em;
+	text-align: center;
+	padding-top: 25px;
+}
+
+
+
+
+#subContenitoreChiSiamo{
+	width: 100%;
+	height: 10em;
+	margin-top: 250px;
+	text-align: center;
+	padding-top: 50px;
+}
+
+#spedizioni{
+	float: left;
+	width: 25%;
+	height: 2em;
+	text-align: center;
+	
+}
+
+#recesso{
+	float: left;
+	width: 25%;
+	height: 2em;
+	text-align: center;
+}
+
+#rapidita{
+	float: left;
+	width: 25%;
+	height: 2em;
+	text-align: center;
+}
+
+#pagamenti{
+	float: left;
+	width: 25%;
+	height: 2em;
+	text-align: center;
+}
+
+
+
+
+
+/*+++++++++++++++++++++++++FOOTER+++++++++++++++++++++++*/
+#footer{
+	width: 100%;	 /* definiamo la largezza quanto la dimensione della pagina*/
+	position: relative;
+	float: left;
+	padding-top: 100px;
+	margin-top: 500px;
+	text-align: center;
+	background:#f3f3f3 ;
+	
+}
+
+#info{
+	float: left;
+	width: 33.3%;/* definiamo un valore in modo che i 3 div componenti del footer non superino la largeza totale del contenitore footer*/
+	background:#f3f3f3 ;
+	height: 13em;
+	
+}
+
+#contatti{
+	float: left;
+	width: 33.3%; /* definiamo un valore in modo che i 3 div componenti del footer non superino la largeza totale del contenitore footer*/
+	background:#f3f3f3;
+	height: 13em;
+}
+
+#newsletter{
+	float: left;
+	width: 33.3%; /* definiamo un valore in modo che i 3 div componenti del footer non superino la largeza totale del contenitore footer*/
+	background-color:#f3f3f3;
+	height: 13em;
+}
+
+.news input[type=text]{
+	  width: 50%;
+	  padding: 12px 20px;
+	  margin: 8px 0;
+	  box-sizing: border-box;
+	  border-radius: 20px;
+	  height: 20px;
+	  font-size:100%;
+}
+
+.news input[type=submit]{
+	  width: 25%;
+	  padding: 12px 20px;
+	  margin: 8px 0;
+	  box-sizing: border-box;
+	  border-radius: 20px;
+	  height:auto;
+	  font-size:100%;
+}
+/*+++++++++++++++++++++++++++++++++++++++++++REGISTRAZIONE UTENTE+++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+#accHeader{
+	margin-top:7%;
+	
+	margin-bottom:-2%;
+}
+#accHeader #HaccHeader{
+	 font-family: HarryPfont;
+	 font-size:400%;
+	 margin-left:33%;
+	
+}
+
+#formDiv{
+	margin-top:7%;
+	margin-left:20%;
+
+}
+
+#formDiv .prob{
+	margin-bottom:5%;
+}
+#formDiv #nome,#formDiv #cognome,#formDiv #telefono,#formDiv #lnascita,#formDiv #email,#formDiv #password,#formDiv #indirizzo{
+	width:50%;
+	height:20px;
+}	
+
+
+#formDiv #dnascita{
+	height:20px;
+}
+#formDiv #passProblems,#emailProblems, #telProblems{
+	color:red;
+}
+#submit{
+    width: 150px; 
+     height: 70%;
+}
+
+#effettuata{
+	width:100%;
+	height:100%;
+	margin-left:20%;
+	margin-top:7%;
+		
+}
+#effettuata #heffettuata{
+	font-size:200%;
+	margin-bottom:2%;
+}
+#effettuata #peffettuata{ 
+	margin-left:10%;
+	font-size:200%;
+}
+
+#effettuata #aeffettuata a:hover{
+	color:gray;
+}
+
+#effettuata #aeffettuata {
+	font-size:500%;
+	margin-left:25%;
+	margin-top:5%;
+	
+}
+#effettuata #aeffettuata  a{
+	color:black;
+	text-decoration:none;
+}
+
+#errore{
+	color:red;
+	margin-left:20%;
+	margin-top:5%;
+	
+}
+
+
+/*++++++++++++++++++++++++++++++VISUALIZZAZIONE PRODOTTI+++++++++++++++++++++++++++++++++++++++++*/
+#container{
+	width: 80%;
+	margin-left: 150px;   /* ci distanziammo a sinistra*/
+ 	margin-right: 150px;
+ 	margin-bottom: 300px; /* ci distanziamo a destra dagli altri elementi*/
+ 	text-align: center;
+ 	
+}
+
+
+#RigaProdotti{ /*viene creata ogni 4 div per visualizzare prodotti*/
+	width: 100%;
+	justify-content: center; 
+	text-align: center;
+	
+	
+}
+
+.Singolo {
+	width: 21%;
+	padding: 1%;
+	float: left;
+	text-align: center;
+	justify-content: center; /* aligns the flexible container's items when the items do not use all available space on the main-axis (horizontally)*/
+	margin: 1%;
+	z-index: -15;
+	
+}
+
+
+.ListaProdotti {
+	width:90%;
+	height:300px;
+	background-position: center;
+	background-size: cover;
+	box-shadow: 0px 4px 12px black; /*creiamo un ombra intorno il div*/
+	border-radius: 4px; /*'smussiamo leggermente gli angoli del div'*/
+	padding: 16px;
+	position: relative;/*The element is positioned relative to its normal position, so "left:20px" adds 20 pixels to the element's LEFT position*/
+	transition: 320ms ease; /*definaimo la durata della transizione e il tipo ease (slow start, then fast, then end slowly) */
+	margin: 0 auto; /*allinea al centro*/
+	background-color: white;
+	z-index: -15;
+}
+
+
+.ListaProdotti img{
+	width:100%;
+	height:70%;
+}
+
+.ListaProdotti .cart{
+	
+	text-align:left;
+	margin-top:5%;
+	font-size:100%;
+}
+
+.ListaProdotti .cart a:hover{
+	
+	text-align:left;
+	margin-top:5%;
+	font-size:100%;
+}
+.Singolo a:link{text-decoration:none; color: black;}
+.Singolo a:visited{text-decoration:none; color: black;}
+.Singolo a:hover{
+	display: block;
+	text-decoration: none; 
+	/*scale(x,y) definisce una trasformazione in scala bidimensionale; se x e y sono uguali l'effetto che si ottiene è simile a uno zoom*/
+    transform: scale(1.1,1.1);
+    /* definiamo il tipo di opacità al passaggio del mouse*/
+    opacity: 0.7;
+}
+/*----- nav -----*/
+nav{
+	background-color:#f3f3f3;
+	margin-top:20px;
+	margin-bottom:60px;
+	height:40px;
+}
+
+nav ul, nav #TopNavMin{
+	list-style-type:none;
+ 	text-align:center;
+	padding:0;
+	margin-top:-20px;
+  
+
+}
+nav ul li a{
+	text-decoration:none;
+	color:black;
+	font-size:20px;
+
+
+}
+
+nav ul li a:hover{
+	text-decoration:none;
+	color:grey;
+
+}
+
+nav ul li {
+	display:inline-block;
+  position:relative;
+  width:250px;
+	padding:10px;
+
+}
+ nav ul li .submenu, nav ul li .submenuMin{
+  padding:20px 10px;
+  text-align:left;
+  width:90%;
+  margin-top:5px;
+  display:none;
+  position:absolute;
+  background-color:#f3f3f3;
+  border-radius:12px;
+  z-index:1;
+
+}
+
+
+nav ul li  .submenu li a,nav ul li  .submenuMin li a{
+
+  text-decoration:none;
+  color:black;
+
+
+}
+
+.submenu li a:hover,.submenuMin li a:hover{
+ color:gray;
+
+}
+.submenu li,.submenuMin li{
+    display:block;
+    float:center;
+}
+nav ul li:hover .submenu,nav ul li:hover .submenuMin{
+  display:block;
+  background:#f3f3f3;
+  position:absolute;
+}
+header .hitems{
+  margin-top:40px;
+  text-align: right;
+
+
+}
+header .hitems ul{
+  margin-left:auto;
+  display: inline-flex;
+  list-style-type:none;
+
+}
+
+header .hitems ul li a{
+    padding:20px;
+    text-decoration:none;
+    color:black;
+     font-size:35px;
+    font-family: HarryPfont;
+    src: url(./font/HARRYP__.TTF);
+}
+
+
+header .hitems ul li a:hover{
+    color:white;
+}
+
+header .logo{
+  margin-top:-110px;
+  text-align: center;
+}
+
+header .logo img{
+  width:190px;
+  height:190px;
+}
+
+
+header{
+	background-color:gray;
+  filter: opacity(80%);
+  padding:50px;
+  height:120px;
+
+}
+
+nav .toggle{
+	float:right;
+	font-size:30px;
+	margin-right:20px;
+	display:none;
+	
+}
+
+nav #nitems ul{
+  	display: none;
+  	
+ }
+ 
+
+ 
+ .cover{
+
+ 	width:900px;
+ 	height:500px;
+ 	overflow:hidden;
+ 	
+ 	
+ }
+
+
+.cent{
+	position:relative;
+	top:50%;
+	left:50%;
+	
+	transform:translate(-50%,-5%);
+	
+}
+
+.cover .coverSlide input[name="rb"]{
+	transform:translate(450px,400px);
+	display:none;
+	
+}
+
+
+
+.coverSlide{
+	width:500%;
+	height:100%;
+	display:flex;
+}
+
+.slides{
+	width:20%;
+	
+	transition:0.4s;
+}
+
+.slides img{
+	width:100%;
+	height:100%;
+	
+}
+
+#slide1:checked~ .s1{
+	margin-left:0;
+}
+
+#slide2:checked~ .s1{
+	margin-left:-20%;
+}
+#slide3:checked~ .s1{
+	margin-left:-40%;
+}
+
+#labelRadio{
+	position:absolute;
+	bottom:5px;
+	left:50%;
+	transform:translateX(-50%);
+	display:flex;
+		
+}
+
+#labelRadio .label{
+	width:15px;
+	height:15px;
+	border-radius:50%;
+	border: 2px solid #cda434;
+	position:flex;
+	cursor:pointer;
+	transition:0.6s;
+	margin:10px;
+	
+}
+#labelRadio .label:hover{
+	background-color:#daa520;
+	
+	
+}
+
+#twoSquare{
+	width:80%;
+	height:500px;
+	margin-left:10%;
+	margin-top:5%;
+	display:flex;
+}
+
+#squareOne{
+	border-style:solid;
+	border-color:gray;
+	width:50%;
+	height:100%;
+	margin-right:3%;
+	background-position:center;
+	background-image:url('./img/night.jpg');
+}
+
+#squareTwo{
+	border-style:solid;
+	border-color:gray;
+	width:50%;
+	height:100%;
+	margin-right:0;
+	background-position:center;
+	background-image:url('./img/house.jpg');
+	
+}
+
+
+
+
+ #smistamento{
+ 	color:white;
+	width:100%;
+	height:20%;
+	font-size:150%;
+	
+}
+ #smistamento a:hover{
+ 	color:black;
+ 	margin-left:33%;
+ 	font-size:600%;
+	
+}
+
+
+ #smistamento a{
+ 	color:white;
+ 	text-decoration:none;
+	margin-top:35%;
+	margin-left:35%;
+ 	font-size:500%;
+	
+}
+
+#squareOneText{
+	color:white;
+	font-size:100%;
+	margin-left:10%;
+	margin-top:3%;
+	
+}
+
+
+iframe{
+ 	margin-top:10%;
+ 	margin-left:10%;
+	width:80%;
+	height:300px;
+
+}
+
+#cardProdotto{
+	
+	width:90%;
+	margin-bottom:-300px;
+	position:relative;
+}
+
+
+
+#cardVendite{
+	display:flex;
+	margin-top:20%;
+	margin-left:5%;
+	width:100%;
+	height:300px;
+	
+}
+
+
+#cardVendite #cardOne,#cardVendite #cardTwo,#cardVendite #cardThree,#cardVendite #cardFour{
+
+	width:20%;
+	height:400px;
+	border-style:solid;
+	border-color:#f3f3f3;
+	margin-left:20px;
+	border-radius:10%;
+	box-shadow: 5px 5px 5px  gray;
+	
+}
+#cardVendite #cardOne img,#cardVendite #cardTwo img,#cardVendite #cardThree img ,#cardVendite #cardFour img {
+	
+	margin-left:20.5%;
+	margin-top:10%;
+	width:60%;
+	height:60%;
+}
+
+#cardVendite #cardOne a:hover,#cardVendite #cardTwo a:hover,#cardVendite #cardThree a:hover ,#cardVendite #cardFour a:hover {
+	
+	opacity:0.7;
+}
+
+
+#cardText{
+	margin-top:15%;
+	margin-left:38%;
+	margin-bottom:-10%;
+	font-size:120%;
+	color:gray;
+	text-transform:uppercase;
+}
+.cardDescrizione{
+	margin-left:20%;
+	margin-top:5%;
+}
+
+.cardDescrizione a{
+	font-size:20px;
+
+	color:black;
+}
+.cardDescrizione a:hover{
+	color:gray;
+}
+#fotoProdotto img{
+	
+	width:40%;
+	height:30%;
+	margin-left: 100px;
+
+}
+
+#containerProdotto{
+	width:100%;
+	height:100%;
+	position:relative;
+}
+
+#infoProdotto{
+	width:100%;
+	height:100%;
+	transform:translateX(53%);
+	margin-top:-25%;
+	posiion:relative;
+	
+	
+}
+
+#infoProdotto h1{
+	color: black;
+	font-size:170%;
+	text-transform: uppercase;
+	
+}
+
+#infoProdotto h2{
+	line-height:300%;
+	color: red;
+	font-size:150%;
+	
+	
+}
+#addCart{
+	
+	width:25%;
+	height:50%;
+	border-radius:20px;
+	background-color:black;
+	padding:1%;
+	margin-top:2%;
+	
+}
+
+#addCart #cnt {
+	
+	font-size:15px;
+	text-align:center;
+	color:white;
+	width:100%;
+	margin-top:1%;
+	
+}
+#addCart #cnt a{
+	
+	font-size:150%;
+	color:white;
+	text-decoration:none;
+}
+
+#addCart:hover{
+	background-color:gray;
+}
+
+#dettagliSpedizione{
+	margin-top:2%;
+	width:400px;
+	font-size:12px;
+}
+
+
+
+#dettagliProdotto{
+	margin-top:15%;
+	margin-left:-45%;
+	width:95%;
+	
+}
+
+#dettagliProdotto h3{
+	font-size:200%;
+
+	}
+	
+#descrizione{
+	margin-top:1%;
+	
+	
+}
+
+#introFAQ{
+	margin-top:10%;
+	text-align:center;
+}
+
+#introFAQ h1{
+	font-family: HarryPfont;
+	font-size:500%;
+	color:black;
+	margin-bottom:2%;
+}
+
+#introFAQ p,#listFAQ p{
+	width:100%;
+}
+#introFAQ p span{
+	color:gray;
+}
+
+#listFAQ{
+	margin-top:5%;
+	margin-left:5%;
+	width:90%;
+	margin-bottom:-400px;
+}
+
+#listaFAQ h3{
+
+}
+
+#listFAQ p.domanda{
+	  margin-top:1%;
+	  font-style: italic;
+	  font-weight:600;
+}
+
+
+
+nav .toggleClose{
+			display:none;
+		}
+
+nav #topNavMin{
+	display:none;
+}
+
+@media screen and (max-width: 768px) {
+	/*---- hidden nav ------- */
+	
+	
+	nav .toggle{
+			float:left;
+			font-size:30px;
+			margin-left:20px;
+			display:block;
+		}
+		
+	
+
+#spanToggle{
+	position:absolute;
+	display:block;
+	z-index:2;
+}
+nav #topNav, header p,header .headerItems{
+				display:none;
+			}
+			
+nav #topNavMin li:hover .submenuMin{
+	
+	display:none;
+	position:static;
+	
+}
+
+nav #topNavMin li .submenuMin{
+	background-color:gray;
+}
+
+nav #topNavMin .menuMin a:hover{
+	color:black;
+}
+
+
+nav #topNavMin li .submenuMin li{
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:20px;
+	width:90%;
+}
+
+nav #topNavMin li .submenuMin li a{
+	margin-left:180px;
+	
+}
+
+#topNavMin{
+	position:absolute;
+	background-color:#f3f3f3;
+	margin-top:0px;
+	height:60%;
+	padding:100px;
+	z-index:1;
+	
+	
+}
+
+#topNavMin li{
+	padding:20px;
+	margin-bottom:40px;
+	margin-top:10px;
+	margin-left:-100px;
+	width:460px;
+	background-color:gray;
+	
+}
+
+
+#topNavMin li:hover{
+	background-color:#C8C8C8;
+	
+}
+
+
+
+ nav .toggleClose{
+ 			position:absolute;
+			float:left;
+			font-size:30px;
+			margin-left:20px;
+			display:none;
+			z-index:2;
+		}
+
+/*----- login page ------*/
+
+#divLogin #hLogin{
+	margin-left:150px;
+}
+
+#divLogin input[type="submit"]{
+	margin-left:150px;
+
+}
+
+#divLogin  #nCliente{
+	font-size:120%;
+	margin-left:150px;
+}
+
+#divLogin  a,#divLogin  a:visited,#divLogin a:hover{
+	color:black;
+	font-size:200%;
+	margin-top:4%;
+	margin-left:150px;
+	
+}
+
+#divLogin a:hover{
+	color:gray;
+}
+/*----------------------------------------------___----------------*/
+#formInsert #submit, #formUpdate #submit, #formRemove #submit{
+	width:30%;
+}
+		#cartButtons{
+		margin-left:10%;
+		margin-top:5%;
+		display: block;
+		padding:5%;
+}
+#cartButtons #svuota,#cartButtons #shopping,#cartButtons #checkout {
+	margin-top:5%;
+	margin-left:20%;
+	
+}
+		#cardText{
+			width:500px;
+			margin-top:15%;
+			margin-left:20%;
+			margin-bottom:-10%;
+			font-size:120%;
+			color:gray;
+			text-transform:uppercase;
+		}
+		#cardVendite #cardOne,#cardVendite #cardTwo,#cardVendite #cardThree,#cardVendite #cardFour{
+		
+			margin-bottom:30px;
+			margin-left:-0%;
+			
+		}
+			#cardVendite{
+			display:block;
+			margin-top:20%;
+			margin-left:100px;
+			margin-bottom:300%;
+			width:300%;
+			height:300px;
+			
+			
+		}
+		iframe{
+			margin-top:5px;
+			margin-left:10%;
+			width:80%;
+			height:250px;
+		
+		}
+			
+		#squareOne{
+			
+			width:400px;
+			height:400px;
+			margin-bottom:20px;
+			
+		}
+		
+		#squareTwo{
+			width:400px;
+			height:400px;
+			
+		}
+			
+		#fotoProdotto img{
+			
+			width:90%;
+			height:80%;
+		
+		}
+		
+		#infoProdotto{
+			width:100%;
+			height:100%;
+			transform:translateX(50%);
+			margin-top:200px;
+			margin-left:-150px;
+			posiion:relative;
+			
+			
+		}
+		
+		#addCart{
+			
+			width:200px;
+			height:50%;
+			border-radius:20px;
+			background-color:black;
+			padding:1%;
+			margin-top:20px;
+			margin-left:70px;
+			
+		}
+		
+		#dettagliSpedizione{
+			margin-top:50px;
+			margin-left:-0px;
+		}
+		
+		#dettagliProdotto{
+			margin-top:30%;
+			margin-left:-40px;
+			
+			width:95%;
+			
+		}
+		
+		#cards{
+			margin-top:-300px;
+			margin-bottom:-400px;
+			margin-left:70px;
+			margin-right:50px;
+			width: 100%;
+			justify-content: center;
+			padding:50px;
+			
+				
+		}
+		
+		.cardDiv{
+			width: 21%;
+			text-align: center;
+			display:block;
+			margin:1%;
+			
+			
+			
+		}
+		
+		.cardElement {
+			width:200px;
+			height:200px;
+			background-position: center;
+			background-size: cover;
+			background-color: white;
+			box-shadow: 0px 4px 12px grey; 
+			border-radius: 20px;
+			border-style:solid;
+			border-color:#e6c619;
+			padding: 30px;
+			position: relative;/*The element is positioned relative to its normal position, so "left:20px" adds 20 pixels to the element's LEFT position*/
+			transition: 320ms ease; /*definaimo la durata della transizione e il tipo ease (slow start, then fast, then end slowly) */
+			margin-right:100px;
+			margin-top:100px;
+			
+			
+		}
+		
+		#headerCard h1{
+			transform:translateX(0%);
+			text-shadow: 0px 4px 6px gray; 
+			text-aling:center;
+			color:#e6c619;
+		}
+		
+		
+		
+		
+		.cover{
+		
+		 	width:500px;
+		 	height:300px;
+		 	overflow:hidden;
+		 	transform:translateX(-55%);
+		 	
+		 	
+		 }
+		 
+		 #twoSquare{
+			width:100%;
+			height:100%;
+			margin-left:10%;
+			margin-top:15%;
+			display:block;
+			
+		}
+		 
+		
+			
+			
+			.logo a img{
+		    	width:120px;
+		    	height:120px;
+		
+		  }
+		  
+		  header{
+		 	 height:40px;
+		  }
+		  
+		  nav{
+		  	margin-top:0px;
+		  	
+		  }
+		 
+		 nav #nitems ul{
+		  	display: inline-flex;
+		  	padding:2px;
+		  	margin-top:-5px;
+		  	margin-right:60px;
+		  	width:20px;
+		  	float:right;
+		  	
+		  	
+		 }
+		 
+		 #footer{
+				background: none;
+			}
+			
+			#info {
+				
+				width: 100%;
+			    height: 13em;
+			}
+			
+			#contatti
+			{
+				
+				width: 100%;
+			    height: 13em;
+				
+				
+			}
+			
+			#newsletter{
+				
+				width: 100%;
+			    height: 13em;
+			
+			}
+			#RigaProdotti{ /*viene creata ogni 4 div per visualizzare prodotti*/
+			width: 48%;
+			
+			
+		}
+		
+			.Singolo {
+			width:80%;
+			margin-bottom:15px;
+			
+			
+			}
+		
+		
+		.ListaProdotti {
+			width:200px;
+			height:300px;
+			margin-left:-20px;
+			
+			
+		}
+			 
+		 .cover{
+		 	margin-top:100px;
+			margin-left:20px;
+ 	
+		 }
+		 
+		  #effettuata{
+			width:100%;
+			height:100%;
+			margin-left:5%;
+			margin-top:7%;
+				
+		}
+		 #effettuata #heffettuata{
+			font-size:150%;
+			margin-bottom:2%;
+			margin-left:5%;
+		}
+		#effettuata #peffettuata{ 
+			margin-left:5%;
+			font-size:150%;
+		}
+				 
+		 
+}
+
+
+
+
+@media screen and (max-width: 1100px) and (min-width:769px)  {
+			 header p,header .headerItems{
+				display:none;
+			}
+			
+			.logo a img{
+		    	width:190px;
+		    	height:190px;
+		
+		  }
+		  
+		  header{
+		 	 height:120px;
+		  }
+		  
+		  nav{
+		  	margin-top:0px;
+		  	height:100px;
+		 
+		  }
+		 
+		 nav #topNav{
+		 	padding:20px;
+		 }
+		 
+		
+		
+		.cover{
+		
+		 	width:700px;
+		 	height:500px;
+		 	overflow:hidden;
+		 	transform:translateX(-50%);
+		 	
+		 }
+		 
+		 
+		 nav #nitems ul{
+		  	display: inline-flex;
+		  	padding:10px;
+		  	margin-top:-250px;
+		  	margin-right:100px;
+		  	width:40px;
+		  	float:right;
+		  	
+		  	
+		 }
+		 
+		 nav #nitems ul .NavItems{
+		  	font-size:25px;
+		  	
+		  	
+		 }
+		 
+		
+		
+		
+		/*--------*/
+		 	#RigaProdotti{ /*viene creata ogni 4 div per visualizzare prodotti*/
+			width: 48%;
+			
+			
+		}
+		
+			.Singolo {
+			width:80%;
+			margin-bottom:15px;
+			
+			
+			}
+		
+		
+		.ListaProdotti {
+			width:200px;
+			height:300px;
+			margin-left:-20px;
+			
+			
+		}
+
+}
+
+
+
+
+
+@media screen and (max-width : 768px ){
+	
+		#contenitoreChiSiamo{
+		margin-left: 50px;  
+	 	margin-right: 150px;
+		width: 80%;
+		padding-top: 100px;
+	}
+	
+	#biografia{
+	
+		width: 95%;
+	 	padding-right: 150px;
+		text-align: center;
+	}
+	#biografia h2,#biografia p{
+		margin-left:-90px;
+	}
+	
+	#idee{
+		width: 100%;
+		height: 8em;
+		text-align: center;
+		padding-top: 25px;
+	}
+	
+	#supporto{	
+		margin-top:50px;
+		width: 100%;
+		height: 8em;
+		text-align: center;
+		padding-top: 25px;
+	}
+		
+	#sicurezza{
+		width: 100%;
+		height: 8em;
+		text-align: center;
+		padding-top: 25px;
+	}
+	
+	#subContenitoreChiSiamo{
+		width: 100%;
+		height: 20em;
+		margin-top: 250px;
+		text-align: center;
+		padding-top: 50px;
+	}
+	
+	#spedizioni{
+		width: 100%;
+		height: 6em;
+		text-align: center;
+		
+	}
+	
+	#recesso{
+		width: 100%;
+		height: 6em;
+		text-align: center;
+	}
+	
+	#rapidita{
+		width: 100%;
+		height: 8em;
+		text-align: center;
+	}
+	
+	#pagamenti{
+		width: 100%;
+		height: 6em;
+		text-align: center;
+	}
+			
+}
+
+
+@media only screen and (max-width : 768px ){
+	
+		#AreaPersonaleContenitore{
+			width:100%;
+			text-align: center;
+		}
+		
+		#DatiUtente{
+			width:100%;	
+			padding-left: 0px;		
+		}
+		
+		#VisualizzatoreOrdine{
+			width:100%;	
+		}
+		
+		.tabellaUtente td{ width: 20%;}
+}
+
+@media only screen and (max-width : 768px ){
+	
+		#fortunato{
+			width:80%;
+			text-align: center;
+		}
+		
+		#fortunatoDescrizione{
+			width:30%;	
+			padding-left: 0px;
+			margin-left: 75px;		
+		}
+		
+		
+}
